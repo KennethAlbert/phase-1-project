@@ -1,12 +1,107 @@
 <!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=ch, initial-scale=1.0">
-    <title>Document</title>
-</head>
-<body>
-    kdkk
-</body>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <title>Single Page Website</title>
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link href="//db.onlinewebfonts.com/c/016f50054d487d421dc18257a191a3ad?family=Noteworthy" rel="stylesheet" type="text/css"/>
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css" integrity="sha512-+4zCK9k+qNFUR5X+cKL9EIR+ZOhtIloNl9GIKS57V1MyNsYpYcUrUeQc9vNfzsWfV28IaLL3i96P9sdNyeRssA==" crossorigin="anonymous" />
+        <link rel="stylesheet" href="index.css">
+        
+    </head>
+    <body>
+       <section id="home" >
+        <header>
+            <div class = "wrapper">
+                
+                <div class = "text">
+                    <h2>Like A  Boss Stores</h2>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Placeat quidem rem fugit recusandae aperiam dolorum, temporibus vero, commodi molestias, dolorem inventore molestiae iusto dicta cupiditate.</p>
+                </div>
+                <nav>
+                    <ul>
+                        <li><a href = "#intro">Explore </a></li>
+                    </ul>
+                </nav>
+            </div>
+        </header>
+    </section>
+        <section id = "intro" class = "page">
+            <span class = "close-btn">
+                <i class = "fas fa-times"></i>
+            </span>
+    <h1 class="heading">BUY US</h1> 
+    <nav class = "navbar">
+        <div>
+          <ul>
+            <li> <div class = "cart">
+                <button type = "button" id = "cart-btn">
+                <a href=""><i class = "fas fa-shopping-cart">0</i></a>  
+                </button></li>
+            <li><a href = "#">Add To Shop</a></li>    
+          </ul>
+        </div>
+
+       
+           
+        </div>
+      </nav>
+    <div id="cards">
+
+
+        
+          </div>
+        </section>
+
+        <section id = "cartPage" class = "page">
+            <span class = "close-btn">
+                <i class = "fas fa-times"></i>
+            </span>
+            <div class="total">
+                <h2>Total</h2>
+                <p>$0</p>
+            </div>
+            <h2 class = "title">Added To Cart</h2>
+            <div id="cardCart">
+              
+
+
+
+                
+                </div>
+       
+           
+        </section>
+
+
+        <section id = "addProduct" class = "page">
+            <span class = "close-btn">
+                <i class = "fas fa-times"></i>
+            </span>
+            <h2 class = "title">ADD ITEMS TO SHOP</h2>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ullam adipisci voluptatibus ducimus sint explicabo. Nemo officia optio rem provident, cupiditate temporibus, reiciendis dolores recusandae eum distinctio veniam deserunt aliquam eveniet!</p>
+
+            <form>
+                <label for = "name">Name Of Product</label>
+                <input type = "text" id = "productName">
+                <label for = "num">Price</label>
+                <input type = "number" id = "price">
+                <label for = "text">Image</label>
+                <input type = "text" id = "image">
+                <label for = "text">category</label>
+                <input type = "text" id = "categery">
+                <label for = "message">Description</label>
+                <textarea id = "message" name = "description" rows = "4"></textarea>
+
+                <input type = "submit" value = "Post">
+            </form>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Vitae dolore tenetur, maxime ratione voluptates esse aut minima accusantium, repellat consectetur nobis eveniet expedita quis, sit aliquam qui possimus rem. Quod error in quas cum, quam placeat maiores obcaecati dolorum voluptatum qui aspernatur laborum. Doloremque pariatur a corrupti incidunt reprehenderit debitis?</p>
+        </section>
+        
+
+        <!-- JS File -->
+        <script src = "index.js"></script>
+        <script src = "main.js"></script>
+    </body>
 </html>
